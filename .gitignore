@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 训练产物
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+runs/
+logs/
+wandb/
+
+# 分布式训练临时文件
+*.log
+nohup.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
